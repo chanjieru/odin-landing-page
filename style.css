@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header, .row1, .row2, .info-row, .row3, .card, .footer {
+    display: flex;
+    flex: 0;
+}
+
+.header {
+    justify-content: space-between;
+    padding: 24px 96px;
+}
+
+.row1 {
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 96px;
+    gap: 8px;
+}
+
+.row1 .left {
+    padding-bottom: 8px;
+    align-items:baseline;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.info img {
+    border-radius: 10px;
+    width: 150px;
+    height: auto;
+}
+
+.row1 img {
+    width: 400px;
+    height: auto;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.row2 {
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+    padding-left: 96px;
+    padding-right: 96px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 32px 96px;
+}
+
+.info {
+    padding-bottom: 24px;
+    max-width: 150px;
+}
+
+.info-row {
+    gap: 64px;
+}
+
+.row3 {
+    flex-direction: column;
+    background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 240px;
+    gap: 16px;
+}
+
+.quote-credits {
+    align-self: flex-end;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.quote-credits {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+button {
+    padding: 8px 24px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #f9faf8;
+    border: none;
+}
+
+.right button {
+    display: flex;
+    border: 2px solid #f9faf8;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.row4 {
+    align-items: center;
+    justify-content: center;
+    padding: 48px 96px;
+}
+
+.card {
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 48px 48px;
+    gap: 48px;
+}
+
+.action {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.header, .footer, .row1 {
+    background-color: #1f2937;
+}
+
+.footer {
+    padding-top: 24px;
+    font-size: 18px;
+    color: #f9faf8;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.left .text {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-bottom: 8px;
+    flex: 1;
+}
+
+a {
+    font-size: 18px;
+    color: #e5e7eb;    
+}
+
+.info.text, .card.text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    gap: 8px;
+}
+
+a {
+    text-decoration: none;
+}
