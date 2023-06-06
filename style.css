@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 .header, .row1, .row2, .info-row, .row3, .card, .footer {
